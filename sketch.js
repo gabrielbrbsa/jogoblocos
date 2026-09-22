@@ -11,19 +11,19 @@ function preload() {
   bloco1 = loadImage("img/Blocos-01.jpg")
   bloco2 = loadImage("img/Blocos-02.jpg")
   bloco3 = loadImage("img/Blocos-03.jpg")
-  bloco4 = loadImage("img/Blocos-04.jpg")
-  bloco5 = loadImage("img/Blocos-05.jpg")
-  bloco6 = loadImage("img/Blocos-07.jpg")
+  bloco4 = loadImage("img/Blocos-07.jpg")
+  bloco5 = loadImage("img/Blocos-08.jpg")
+  bloco6 = loadImage("img/Blocos-06.jpg")
 }
 
 function setup() {
   createCanvas(min(windowWidth, windowHeight), min(windowWidth, windowHeight));
   tileSize = width / cols;
+  imageMode(CENTER);
   initializeGiro();
   initializePatterns();
   drawPattern();
   noStroke();
-  imageMode(CENTER);
 }
 
 function draw() {
