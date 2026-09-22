@@ -3,7 +3,7 @@ let rows = cols; // Número de linhas
 let tileSize; // Tamanho do módulo
 let patterns = []; // Matriz para armazenar os padrões de cada módulo
 let currentIndex = 0; // Índice usado para sequência linear
-let giro = []; // Array para armazenar as cores disponíveis
+let giro = []; // Array para armazenar os angulos de rotação
 
 var bloco1, bloco2, bloco3, bloco4, bloco5, bloco6;
 
