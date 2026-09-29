@@ -3,6 +3,6 @@ html, body {
   padding: 0;
 }
 
-canvas {
+#sketch-container {
   display: block;
 }
