@@ -17,7 +17,8 @@ function preload() {
 }
 
 function setup() {
-  createCanvas(min(windowWidth, windowHeight), min(windowWidth, windowHeight));
+  var canvas = createCanvas(min(windowWidth, windowHeight), min(windowWidth, windowHeight));
+  canvas.parent('sketch-container');
   tileSize = width / cols;
   imageMode(CENTER);
   initializeGiro();
